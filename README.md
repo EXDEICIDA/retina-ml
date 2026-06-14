@@ -6,8 +6,7 @@
   <img src="https://img.shields.io/badge/Colab-F9AB00?logo=googlecolab&color=525252" alt="Google Colab">
   <img src="https://img.shields.io/badge/Kaggle-035a7d?logo=kaggle&logoColor=white" alt="Kaggle">
 </p>
-# Retina ML
-
+B
 This project builds a complete machine learning pipeline to predict DNA methylation status based on genomic features. The goal is to identify epigenetic patterns that can serve as early detection biomarkers for rare genetic vision disorders, such as Retinitis Pigmentosa.
 
 
@@ -21,4 +20,6 @@ The data is sourced from the Kaggle dataset: DNA Methylation Data - Epigenetic B
 | **`regulatory_score`** | Genomic Feature | A metric indicating the potential regulatory activity (like promoters or enhancers) of the region. |
 | **`conservation_score`** | Genomic Feature | A score representing how well this genomic sequence has been preserved across evolution. |
 | **`methylation_status`** | Target Variable | The binary classification target (0 = Unmethylated, 1 = Methylated). |## Result
+
+
 After evaluating multiple algorithms, a simple linear model outperformed complex tree-based models, indicating that the feature boundaries in this specific dataset are highly linear.
